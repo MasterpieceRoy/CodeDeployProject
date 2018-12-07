@@ -1,8 +1,8 @@
 #!/bin/bash
-yum update
-easy_install pip
-pip install virtualenv
+sudo yum install -y python34-setuptools
+sudo easy_install-3.4 pip
+python3 -m pip install --user virtualenv
 cd /home/ec2-user
-virtualenv environment
+python3 -m virtualenv environment
 source environment/bin/activate
-pip install -r requirements.txt
+pip3 install -r requirements.txt
