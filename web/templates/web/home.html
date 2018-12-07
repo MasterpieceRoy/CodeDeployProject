@@ -1,0 +1,16 @@
+{% extends "web/base.html" %}
+{% block content %}
+    {% for game in games %}
+    <article class="media content-section">
+  <div class="media-body">
+    <div class="article-metadata">
+      <a class="mr-2">{{ game.name }}</a>
+      <small class="text-muted"> On {{ game.developer }}</small>
+        <small class="text-muted">{{ game.date_updated }}</small>
+    </div>
+    <small class="text-muted">{{ game.release }}</small>
+      <small class="text-muted">{{ game.creator }}</small>
+  </div>
+</article>
+    {% endfor %}
+{% endblock content %}
