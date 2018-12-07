@@ -3,8 +3,6 @@ os: linux
 files:
  - source: /django_project/
    destination: /home/ec2-user/django_project
- - source: /scripts/
-   destination: /home/ec2-user/scripts
  - source: /static/
    destination: /home/ec2-user/static
  - source: /web/

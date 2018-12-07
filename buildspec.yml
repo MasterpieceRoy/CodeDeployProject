@@ -19,7 +19,7 @@ artifacts:
     - 'users/**/*'
     - 'web/**/*'
     - 'static/**/*'
-    - 'scripts/**/*'
+    #- 'scripts/**/*'
     - 'appspec.yml'
     - 'manage.py'
     - 'requirements/**/*'
