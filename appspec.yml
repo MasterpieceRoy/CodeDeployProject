@@ -34,5 +34,5 @@ permissions:
 hooks:
   AfterInstall:
     - location: scripts/install_dependencies
-      timeout: 300
+      timeout: 900
       runas: root
