@@ -15,3 +15,4 @@ pip3 install django
 
 pip3 install django-crispy-forms
 
+BUILD_ID=dontKillMe nohup python3 manage.py runserver 0.0.0.0:8000 </dev/null &>/dev/null &
